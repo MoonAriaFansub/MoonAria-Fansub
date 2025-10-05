@@ -3,21 +3,21 @@
     Auther Name : ZFCon
 
     Swatch 1
-    #070707
+    #00FFFF
     Swatch 2
-    #faf9f9
+    #000000
     Swatch 3
-    #c3b6ab
+    #0000FF
     Swatch 4
-    #ab201c
+    #5F9EA0
     Swatch 5
-    #a92d1c
+    #00008B
     Swatch 6
-    #4e544e
+    #483D8B
     Swatch 7
-    #d9a83d
+    #4B0082
     Swatch 8
-    #568c90
+    #9370DB
 */
 
 /* start navbar */
@@ -25,28 +25,28 @@
 /* start base */
 
 body {
-    background-color: #070707;
-    color: #faf9f9;
+    background-color: #000000;
+    color: #000000;
 }
 
 a {
-    color: #530c0a;
+    color: #191970;
     text-decoration: none;
     transition: all .3s ease-in-out;
 }
 
 a:hover {
-    color: #ba080b;
+    color: #000080;
     text-decoration: none;
 }
 
 table tbody tr td {
-    color: #ab201c;
+    color: #483D8B;
 }
 
 .btn-red {
     padding: 5px 10px;
-    background-color: #ba080b;
+    background-color: #483D8B;
     border-radius: 0;
     transition: all .3s ease-in-out;
 }
