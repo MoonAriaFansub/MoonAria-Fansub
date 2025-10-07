@@ -1,11 +1,6 @@
-/* start navbar */
+const hamburger = document.getElementById('hamburger');
+const navMenu = document.getElementById('nav-menu');
 
-let saved_btn = $('.navbar .saved button');
-let account_btn = $('.navbar .account button');$ 
-
-$('.navbar-light .navbar-toggler').click(() => {
-    saved_btn.toggleClass("disabled");
-    account_btn.toggleClass("disabled");
-})
-
-/* end navbar */
+hamburger.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
+});
