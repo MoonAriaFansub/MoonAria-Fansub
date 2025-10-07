@@ -34,7 +34,7 @@ header {
 }
 
 .logo {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
   color: var(--pinkish);
 }
@@ -126,7 +126,7 @@ footer {
   margin-top: auto;
 }
 
-/* 📱 Mobil görünüş */
+/* Mobil görünüş */
 @media (max-width: 768px) {
   nav {
     position: absolute;
@@ -145,4 +145,44 @@ footer {
   .hamburger {
     display: flex;
   }
+}
+
+/* Tags filter */
+.tags-filter button {
+  background: var(--purple);
+  color: var(--pinkish);
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px 5px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.tags-filter button:hover {
+  background: var(--light-purple);
+}
+
+.modal {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-light);
+  font-size: 1rem;
+  text-align: center;
+  padding: 20px;
+  display: none;
+}
+
+.modal button {
+  margin-top: 15px;
+  padding: 8px 15px;
+  background: var(--pinkish);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
